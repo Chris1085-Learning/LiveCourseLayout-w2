@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/*=============================================
+=            General CSS Style                =
+=============================================*/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: San Francisco, "微軟正黑體", "Microsoft JhengHei", Tahoma, verdana, STHeiti, serif, sans-serif;
+  font-size: 16px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 90px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 36px;
+}
+
+span {
+  font-size: 24px;
+  line-height: 32px;
+  padding-left: 16px;
+  font-weight: bold;
+}
+
+.row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow-x: hidden;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jusitify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pt-48 {
+  padding-top: 48px;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
+}
+
+.bg-dark {
+  background: #415165 0% 0% no-repeat padding-box;
+  color: white;
+}
+
+.text-brown {
+  color: #a00404;
+}
+
+/*=====  End of General css style  ======*/
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*# sourceMappingURL=style.css.map */

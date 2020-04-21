@@ -1,0 +1,113 @@
+/*=============================================
+=            General CSS Style                =
+=============================================*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: San Francisco, "微軟正黑體", "Microsoft JhengHei", Tahoma, verdana, STHeiti, serif, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  // line-height: 1.5;
+  // font-weight: 300;
+  // color: #333;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 90px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 200;
+  // letter-spacing: 2px;
+  line-height: 36px;
+}
+
+span {
+  font-size: 24px;
+  line-height: 32px;
+  padding-left: 16px;
+  font-weight: bold;
+}
+
+// .test {
+//   border: 1px solid red;
+// }
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.jusitify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pt-48 {
+  padding-top: 48px;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
+}
+
+.bg-dark {
+  background: #415165 0% 0% no-repeat padding-box;
+  color: white;
+}
+
+.text-brown {
+  color: #a00404;
+}
+/*=====  End of General css style  ======*/
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
