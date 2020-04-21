@@ -29,6 +29,11 @@ h2 {
   line-height: 75px;
 }
 
+h5 {
+  font-size: 24px;
+  line-height: 42px;
+}
+
 p {
   font-size: 24px;
   line-height: 36px;
@@ -99,20 +104,8 @@ p {
   padding-top: 64px;
 }
 
-.pb-48 {
-  padding-bottom: 48px;
-}
-
 .text-color-white {
   color: white;
-}
-
-.text-color-black {
-  color: black;
-}
-
-.m-auto {
-  margin: 0 auto;
 }
 
 /*=====  End of General css style  ======*/
@@ -127,7 +120,7 @@ p {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 324px;
+  padding-top: 384px;
 }
 
 .header .header-content {
@@ -141,9 +134,9 @@ p {
 
 .header .header-title::before {
   position: absolute;
-  content: "Here’s";
+  content: "Here's";
   font-size: 24px;
-  line-height: 36px;
+  line-height: 42px;
   font-style: italic;
   font-weight: bold;
   top: -28px;
@@ -173,16 +166,17 @@ p {
 .about .about-list {
   margin-top: 24px;
   margin-bottom: 56px;
+  width: 384px;
   padding-top: 18px;
   border-top: 1px solid black;
 }
 
 .about .about-list .about-list-item {
-  display: inline-block;
   position: relative;
   padding: 16px 0px;
   font-size: 24px;
   line-height: 42px;
+  margin-left: 30px;
 }
 
 .about .about-list .about-list-item::before {
@@ -191,16 +185,65 @@ p {
   color: #891818;
   position: absolute;
   top: 27px;
-  left: -22px;
+  left: -38px;
   width: 22px;
   height: 22px;
   background-color: #891818;
   border-radius: 50%;
 }
 
-footer {
-  padding-bottom: 80px;
+.brand {
   background-color: black;
+}
+
+.brand .brand-title {
+  margin-bottom: 16px;
+}
+
+.brand .brand-content {
+  font-size: 20px;
+  line-height: 42px;
+  margin-top: 32px;
+  margin-bottom: 48px;
+  font-style: normal;
+}
+
+.brand .brand-imgList {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 160px;
+}
+
+.otherWork {
+  background-image: url("../images/photo-1561291386-5be50364cfb5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 104px;
+}
+
+.otherWork p {
+  font-size: 20px;
+  line-height: 42px;
+  margin-top: 24px;
+  font-style: normal;
+}
+
+.otherWork p span {
+  font-style: italic;
+}
+
+.otherWork .otherWork-imgList {
+  margin-top: 48px;
+}
+
+.otherWork .otherWork-imgList .otherWork-imgList-item {
+  margin-bottom: 56px;
+}
+
+footer {
+  background-color: black;
+  padding-bottom: 80px;
 }
 
 footer .contact-info {

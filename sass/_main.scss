@@ -34,6 +34,13 @@ h2 {
   // font-style: italic;
 }
 
+h5 {
+  font-size: 24px;
+  line-height: 42px;
+  // font-weight: bold;
+  // font-style: italic;
+}
+
 p {
   font-size: 24px;
   // letter-spacing: 2px;
@@ -94,21 +101,17 @@ p {
   padding-top: 64px;
 }
 
-.pb-48 {
-  padding-bottom: 48px;
-}
+// .pb-48 {
+//   padding-bottom: 48px;
+// }
 
 .text-color-white {
   color: white;
 }
 
-.text-color-black {
-  color: black;
-}
-
-.m-auto {
-  margin: 0 auto;
-}
+// .m-auto {
+//   margin: 0 auto;
+// }
 
 /*=====  End of General css style  ======*/
 .container {
@@ -122,7 +125,7 @@ p {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 324px;
+  padding-top: 384px;
 
   .header-content {
     padding-bottom: 64px;
@@ -134,9 +137,9 @@ p {
   }
   .header-title::before {
     position: absolute;
-    content: "Here’s";
+    content: "Here's";
     font-size: 24px;
-    line-height: 36px;
+    line-height: 42px;
     font-style: italic;
     font-weight: bold;
     top: -28px;
@@ -166,18 +169,16 @@ p {
   .about-list {
     margin-top: 24px;
     margin-bottom: 56px;
-    // width: 384px;
+    width: 384px;
     padding-top: 18px;
     border-top: 1px solid black;
-    // float: center;
 
     .about-list-item {
-      display: inline-block;
-      // clear: left;
       position: relative;
       padding: 16px 0px;
       font-size: 24px;
       line-height: 42px;
+      margin-left: 30px;
     }
 
     .about-list-item::before {
@@ -186,7 +187,7 @@ p {
       color: #891818;
       position: absolute;
       top: 27px;
-      left: -22px;
+      left: -38px;
       width: 22px;
       height: 22px;
       background-color: #891818;
@@ -195,10 +196,54 @@ p {
   }
 }
 
-footer {
-  padding-bottom: 80px;
+.brand {
   background-color: black;
+  .brand-title {
+    margin-bottom: 16px;
+  }
 
+  .brand-content {
+    font-size: 20px;
+    line-height: 42px;
+    margin-top: 32px;
+    margin-bottom: 48px;
+    font-style: normal;
+  }
+
+  .brand-imgList {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 160px;
+  }
+}
+
+.otherWork {
+  background-image: url("../images/photo-1561291386-5be50364cfb5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-bottom: 104px;
+  p {
+    font-size: 20px;
+    line-height: 42px;
+    margin-top: 24px;
+    font-style: normal;
+    span {
+      font-style: italic;
+    }
+  }
+
+  .otherWork-imgList {
+    margin-top: 48px;
+    .otherWork-imgList-item {
+      margin-bottom: 56px;
+    }
+  }
+}
+
+footer {
+  background-color: black;
+  padding-bottom: 80px;
   .contact-info {
     padding-top: 16px;
   }
