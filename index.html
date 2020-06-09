@@ -8,91 +8,141 @@
     , initial-scale=1.0"
     />
     <title>LiveCourseLayout-w2</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <section class="header text-color-white flex-column align-items-center">
-      <h1 class="header-title">JOANNE</h1>
-      <h5 class="header-content">Founder of "XXXD Official"<br />& Graphic Designer</h5>
+      <h1 data-aos="fade-down" class="header-title">JOANNE</h1>
+      <h5 data-aos="fade-down" class="header-content">Founder of "XXXD Official"<br />& Graphic Designer</h5>
       <ul class="socialMedia d-flex">
-        <li class="socialMedia-icons">
+        <li data-aos="fade-up-right" class="socialMedia-icons">
           <a href=""><img src="./images/behance.svg" alt="" /></a>
         </li>
-        <li class="socialMedia-icons">
+        <li data-aos="fade-up-right" class="socialMedia-icons">
           <a href=""><img src="./images/facebook.svg" alt="" /></a>
         </li>
-        <li class="socialMedia-icons">
+        <li data-aos="fade-up-left" class="socialMedia-icons">
           <a href=""><img src="./images/instagram.svg" alt="" /></a>
         </li>
-        <li class="socialMedia-icons">
+        <li data-aos="fade-up-left" class="socialMedia-icons">
           <a href=""><img src="./images/youtube.svg" alt="" /></a>
         </li>
       </ul>
     </section>
 
     <section class="about pt-64 flex-column align-items-center text-center">
-      <h2 class="about-title">About</h2>
-      <img class="about-img" src="./images/photo.png" alt="" />
-      <p class="about-content">Joanne Chen</p>
-      <p class="about-content">1997/10/10</p>
-      <p class="about-content">National Hex School Normal University<br />Department of Visual Design</p>
+      <h2 data-aos="fade-up" data-aos-offset="-64" class="about-title">About</h2>
+      <img data-aos="zoom-in" class="about-img" src="./images/photo.png" alt="" />
+      <p data-aos="fade-right" data-aos-duration="1000" class="about-content" id="about-contentAnchor">Joanne Chen</p>
+      <p data-aos="fade-right" data-aos-duration="1000" data-aos-anchor="#about-contentAnchor" class="about-content">
+        1997/10/10
+      </p>
+      <p data-aos="fade-right" data-aos-duration="1000" data-aos-anchor="#about-contentAnchor" class="about-content">
+        National Hex School Normal University<br />Department of Visual Design
+      </p>
       <ul class="about-list flex-column align-items-center">
-        <li class="about-list-item text-center">Founder of "XXXD Official"</li>
-        <li class="about-list-item text-center">Graphic Designer</li>
-        <li class="about-list-item text-center">Graphic Intern of Hex School</li>
+        <li
+          data-aos="fade-left"
+          data-aos-anchor="#about-contentAnchor"
+          data-aos-duration="1000"
+          class="about-list-item text-center"
+        >
+          Founder of "XXXD Official"
+        </li>
+        <li
+          data-aos="fade-left"
+          data-aos-anchor="#about-contentAnchor"
+          data-aos-duration="1000"
+          class="about-list-item text-center"
+        >
+          Graphic Designer
+        </li>
+        <li
+          data-aos="fade-left"
+          data-aos-anchor="#about-contentAnchor"
+          data-aos-duration="1000"
+          class="about-list-item text-center"
+        >
+          Graphic Intern of Hex School
+        </li>
       </ul>
     </section>
 
     <section class="brand text-color-white pt-64 text-center">
       <div class="container flex-column align-items-center">
-        <h1 class="brand-title">My Brand "XXXD"</h1>
-        <h5>Just Keep XXXD Everyday</h5>
-        <p class="brand-content">
+        <h2 data-aos="fade-up" class="brand-title">My Brand "XXXD"</h2>
+        <h5 data-aos="fade-up">Just Keep XXXD Everyday</h5>
+        <p data-aos="fade-right" data-aos-duration="1000" class="brand-content">
           2020 年創立的個人服飾品牌<br />引領叛逆少年開啟與社會對話的窗口<br />主打概念潮流T-Shirt
         </p>
-        <img src="./images/brand_img1.png" alt="" />
+        <img data-aos="zoom-in" data-aos-duration="700" src="./images/brand_img1.png" alt="" />
         <ul class="brand-imgList d-flex justify-content-between">
-          <li class="brand-imgList-item"><img src="./images/brand_img2.png" alt="" /></li>
-          <li class="brand-imgList-item"><img src="./images/brand_img3.png" alt="" /></li>
+          <li data-aos="zoom-in-right" data-aos-duration="1000" class="brand-imgList-item">
+            <img src="./images/brand_img2.png" alt="" />
+          </li>
+          <li data-aos="zoom-in-left" data-aos-duration="1000" class="brand-imgList-item">
+            <img src="./images/brand_img3.png" alt="" />
+          </li>
         </ul>
       </div>
     </section>
 
     <section class="otherWork pt-64 text-center">
       <div class="container flex-column align-items-center">
-        <h2>Other Works</h2>
-        <p>2016-2020 年累積的作品<br />海報/廣告/攝影/LOGO/3D</p>
+        <h2 data-aos="fade-up">Other Works</h2>
+        <p data-aos="fade-left">2016-2020 年累積的作品<br />海報/廣告/攝影/LOGO/3D</p>
         <ul class="otherWork-imgList wrap justify-content-between text-color-white text-center">
-          <li class="otherWork-imgList-item">
+          <li data-aos="fade-down-right" class="otherWork-imgList-item">
             <img src="./images/work_img1.png" alt="" />
             <p>海報設計/<span>2017</span></p>
           </li>
-          <li class="otherWork-imgList-item">
+          <li data-aos="fade-down" class="otherWork-imgList-item">
             <img src="./images/work_img2.png" alt="" />
             <p>海報設計/<span>2018</span></p>
           </li>
-          <li class="otherWork-imgList-item">
+          <li data-aos="fade-down-left" class="otherWork-imgList-item">
             <img src="./images/work_img3.png" alt="" />
             <p>海報設計/<span>2018</span></p>
           </li>
-          <li class="otherWork-imgList-item">
+          <li
+            data-aos="zoom-in-right"
+            data-aos-duration="1000"
+            data-aos-anchor-placement="bottom-bottom"
+            class="otherWork-imgList-item"
+          >
             <img src="./images/work_img4.png" alt="" />
             <p>概念攝影/<span>2018</span></p>
           </li>
-          <li class="otherWork-imgList-item">
+          <li
+            data-aos="zoom-in-left"
+            data-aos-duration="1000"
+            data-aos-anchor-placement="bottom-bottom"
+            class="otherWork-imgList-item"
+          >
             <img src="./images/work_img5.png" alt="" />
             <p>概念攝影/<span>2018</span></p>
           </li>
-          <li class="otherWork-imgList-item">
+          <li
+            data-aos="zoom-in-right"
+            data-aos-easing="ease-in-back"
+            data-aos-duration="1500"
+            class="otherWork-imgList-item"
+          >
             <img src="./images/work_img6.png" alt="" />
             <p>sasa 酒標設計/<span>2019</span></p>
           </li>
-          <li class="otherWork-imgList-item">
+          <li data-aos="fade-up" data-aos-easing="ease-in-back" data-aos-duration="1500" class="otherWork-imgList-item">
             <img src="./images/work_img7.png" alt="" />
             <p>攝影創作/<span>2018</span></p>
           </li>
-          <li class="otherWork-imgList-item">
+          <li
+            data-aos="zoom-in-left"
+            data-aos-easing="ease-in-back"
+            data-aos-duration="1500"
+            class="otherWork-imgList-item"
+          >
             <img src="./images/work_img8.png" alt="" />
             <p>官網設計/<span>2020</span></p>
           </li>
@@ -101,9 +151,23 @@
     </section>
 
     <footer class="pt-64 text-center text-color-white">
-      <h2>Contact</h2>
-      <p class="contact-info">Mail：xxxd@hexschool.com</p>
-      <p class="contact-info">Phone Number：0910123456</p>
+      <h2 data-aos="fade-down" data-aos-offset="700" data-aos-anchor-placement="bottom-bottom" id="footerAnchor">
+        Contact
+      </h2>
+      <p data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" class="contact-info">
+        Mail：xxxd@hexschool.com
+      </p>
+      <p data-aos="fade-right" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" class="contact-info">
+        Phone Number：0910123456
+      </p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        delay: 800,
+        easing: "ease-in-sine",
+      });
+    </script>
   </body>
 </html>
